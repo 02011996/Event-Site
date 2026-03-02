@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Website</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body id="top">
+
+<main>
+<nav class="navbar">
+  <a href="index.html" class="logo">
+    <img src="event-logo.jpg" alt="Event Logo">
+  </a>
+
+  <i class="fas fa-bars" id="menu-icon" onclick="toggleMenu()"></i>
+
+  <div id="menu" class="menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="schedule.html">Schedule</a></li>
+      <li><a href="buytix.html">Buy Tickets</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<section class="hero">
+<div class="hero-content">
+  <h1>THE GORGE AMPITHEATRE</h1>
+<p>Join us for one of the most unforgettable concert experiences of your life!</p>
+<p>At one of the most iconic venues in the world.</p>
+</div>
+</section>
+
+<section class="filler">
+  <div class="filler-overlay">
+    <div class="filler-content">
+      <h2>Experience the Magic of The Gorge Amphitheatre</h2>
+      <p>
+        Discover the breathtaking beauty and unforgettable performances 
+        that make this iconic venue a must-visit destination for music lovers.
+      </p>
+      <a href="schedule.html" class="filler-btn">View Upcoming Events</a>
+    </div>
+  </div>
+</section>
+
+<section class="reviews">
+<h2>What People Are Saying</h2>
+<h3 class="rating">Overall Rating: <span class="stars">⭐ 4.9/5 from 2,300 reviews</span>
+</h3>
+
+<div class="review-grid">
+
+<div class="review-card">
+  <p>"I recommend everyone to experience The Gorge Amphitheater regardless of what the draw is. It is an amazing venue."</p>
+  <span>- Jesse G. (Aug 31st, 2025)</span>
+  <div class="rating">
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+  </div>
+  <div class="review-platform">
+<img src="yelp.jpg" alt="Yelp Logo">
+</div>
+</div>
+
+
+  <div class="review-card">
+  <p> " I loved this venue. So happy I got to experience it. Definitely worth the travel time and tent sleeping to stay at the nearby venue campground. But don't plan on sleeping much while there. It's party town. Everyone was friendly and the good vibes were flowing. Enjoy life! Dance often!"</p>
+  <span>- Kathryn Y (August 31st, 2025)</span>
+  <div class="rating">
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+  </div>
+  <div class="review-platform">
+<img src="yelp.jpg" alt="Yelp Logo">
+</div>
+  </div>
+
+
+   <div class="review-card">
+    <p>"Very clean and a nice facility. All staff were friendly and helpful. Facility has an on-site lounge with food and a hot breakfast."</p>
+    <span>-Chuck M (July 2024)</span>
+    <div class="rating">
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+  </div>
+    <div class="review-platform">
+<img src="trip advisor.jpg" alt="Trip Advisor Logo">
+</div>
+  </div>
+  
+  <div class="review-card">
+   <p>"This venue is super cool! I mean absolutely amazing! Stunning background to an amazing concert! my only knock is the prices for drinks and food but thats to be expected! This was my first show and I cant wait to come back!!!!"</p>
+    <span>- BigChris406 (July 2024)</span>
+    <div class="rating">
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+  </div>
+    <div class="review-platform">
+<img src="trip advisor.jpg" alt="Trip Advisor Logo">
+</div>
+  </div>
+</div>
+
+
+</main>
+
+<footer class="footer">
+  <p>Privacy Policy | Terms of Use | Contact Information</p>
+  <a href="#top" class="back-to-top">↑ Back to Top</a>
+</footer>
+
+<script>
+function toggleMenu() {
+  document.getElementById("menu").classList.toggle("active");
+}
+</script>
+
+</body>
+</html>
