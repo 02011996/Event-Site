@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Website</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+  <a href="index.html" class="logo">
+    <img src="event-logo.jpg" alt="Event Logo">
+  </a>
+
+  <i class="fas fa-bars" id="menu-icon" onclick="toggleMenu()"></i>
+
+  <div id="menu" class="menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="schedule.html">Schedule</a></li>
+      <li><a href="buytix.html">Buy Tickets</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<body class="contact-page">
+  
+<section class="contact-hero">
+<div class="contact-overlay">
+<h1>Contact Us</h1>
+<p>We're here to help make your concert experience unforgettable.</p>
+</div>
+</section>
+
+<section class="contact-section">
+
+<div class="contact-container">
+
+<div class="contact-info">
+
+<div class="contact-card">
+  <i class="fas fa-map-marker-alt"></i>
+  <h3>Location</h3>
+  <p>123 Silica Rd NW<br>Quincy, WA 123456</p>
+</div>
+
+<div class="contact-card">
+  <i class="fas fa-headset"></i>
+  <h3>Guest Services</h3>
+  <p>(123) 456-7890</p>
+  <span>Mon–Fri | 9AM–5PM</span>
+</div>
+
+</div>
+
+<form class="contact-form">
+<input type="text" placeholder="Full Name" required>
+<input type="email" placeholder="Email Address" required>
+<textarea placeholder="Your Message" rows="5" required></textarea>
+<button type="submit">Send Message</button>
+</form>
+
+</div>
+
+</section>
+
+</body>
+
+<footer class="footer">
+  <p>Privacy Policy | Terms of Use | Contact Information</p>
+</footer>
